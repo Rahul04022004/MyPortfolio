@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { GREETINGS, TYPING_TITLES } from '../constants';
 import { ArrowRightIcon, TerminalIcon } from './Icons';
 import Terminal from './Terminal';
+import profileimg from './images/profileimg.jpg'
 
 const BlinkingCursor: React.FC = () => (
     <span className="w-1 h-8 bg-white/80 inline-block align-middle ml-2" style={{ animation: 'blink 1s step-end infinite' }}></span>
@@ -128,7 +129,7 @@ const Hero: React.FC = () => {
         
         <div className="mt-16 md:mt-0 flex justify-center z-10">
           <div className="relative">
-            <img src="components\images\profileimg.jpg" alt="Developer Illustration" className="w-72 h-72 md:w-80 md:h-80 rounded-full object-cover z-10 relative" />
+            <img src={profileimg} alt="Developer Illustration" className="w-72 h-72 md:w-80 md:h-80 rounded-full object-cover z-10 relative" />
             <div className="absolute bottom-4 right-0 bg-neutral-800/80 border border-neutral-700 text-white text-xs px-3 py-1.5 rounded-full z-20 shadow-lg backdrop-blur-sm">
               :)
             </div>
