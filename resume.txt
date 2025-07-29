@@ -1,0 +1,53 @@
+Tamgale Rahul
+====================
++91 9834599179 | tamgalerahul0402@gmail.com | linkedin.com/in/Rahul-Tamgale | github.com/Rahul04022004
+
+SUMMARY
+--------------------
+Computer Science undergraduate specializing in full-stack web development and applied AI solutions. Experienced with React, Node.js, Firebase, and databases like MongoDB and PostgreSQL. Developed projects in fintech, civic-tech, and mobility domains. Adept at building scalable apps, collaborating in teams, and delivering practical impact through technology.
+
+EDUCATION
+--------------------
+BE in Computer Science and Engineering | Dayananda Sagar College Of Engineering, Bengaluru
+Expected 2027
+CGPA: 9.1
+
+PU (Pre-University) | Dimond PU Science College, Bhalki
+2022
+Percentage: 93.16%
+
+Xth (Secondary School) | Shree Swami Samarth English Medium School, Pune
+2020
+Percentage: 78.20%
+
+SKILLS
+--------------------
+- Languages: C, C++, JavaScript, Java (DSA), Python (Intermediate)
+- Frontend: React.js, HTML, CSS, Tailwind, Next.js, TypeScript
+- Backend: Node.js, Express.js, MongoDB, MySQL, PostgreSQL
+- Tools: Git, Firebase, Postman, MongoDB Compass, Eclipse IDE, VS Code
+
+IDEATHONS & HACKATHONS
+--------------------
+Team NyaySarathi - AI Innovation Day & Bhasha Bandhu Hackathon (Feb-May 2024)
+- Developed an AI-powered automated legal filing system using regional language speech to generate legal documents (RTIs, FIRs).
+- Integrated Bhashini API, Azure OpenAI (GPT-4, BERT), and Firebase for real-time processing and e-governance.
+- The project bridges the legal access gap for rural and underserved communities through multilingual automation.
+
+PROJECTS
+--------------------
+WiseWallet – Smart Personal Finance Platform
+- Developed a full-stack platform to manage expenses, SIPs, and investments with goal tracking.
+- Integrated Razorpay for payments and AngelOne API for investment insights.
+- Tech Stack: Next.js, TypeScript, Node.js, PostgreSQL, Firebase.
+
+Boost Fleet – Vehicular Energy Management System
+- An awareness platform promoting energy-efficient vehicle practices and smart fleet operations.
+- Included EV awareness, eco-driving techniques, and fuel-saving strategies with educational content.
+- Tech Stack: HTML, CSS, JavaScript.
+
+ACHIEVEMENTS & LEARNING
+--------------------
+- Complete Full-Stack Web Development Bootcamp (Udemy)
+- 100 Days of Code - Python Bootcamp (Udemy)
+- Complete Data Science, Machine Learning, Deep Learning, NLP Bootcamp (Udemy)

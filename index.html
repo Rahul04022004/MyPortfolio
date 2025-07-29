@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamgale Rahul | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      html {
+        background-color: #111;
+      }
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        color: #e5e7eb; /* Equivalent to text-gray-200 */
+        overflow-x: hidden;
+      }
+
+      body::before, body::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+      }
+
+      /* Layer 1: Slower, background stars, drifting diagonally */
+      body::before {
+        background-image: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1.5px, transparent 1.5px);
+        background-size: 200px 200px;
+        animation: pan-stars 37.5s linear infinite;
+      }
+
+      /* Layer 2: Brighter, Faster, foreground stars, drifting in a different diagonal direction */
+      body::after {
+        background-image: radial-gradient(circle, rgba(255, 255, 255, 0.7) 1px, transparent 1px);
+        background-size: 100px 100px;
+        animation: pan-stars 12.5s linear infinite reverse;
+      }
+      
+      @keyframes pan-stars {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: -200px -200px;
+        }
+      }
+
+       @keyframes scroll-down {
+          0% { transform: translateY(0); opacity: 1; }
+          70% { transform: translateY(12px); opacity: 0; }
+          100% { transform: translateY(0); opacity: 1; }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0-rc-f994737d14-20240522",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0-rc-f994737d14-20240522/client",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
