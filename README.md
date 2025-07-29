@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Run and deploy your AI Studio app
+
 
 This contains everything you need to run your app locally.
 
@@ -15,4 +14,4 @@ This contains everything you need to run your app locally.
    `npm run dev`
 =======
 # MyPortfolio
->>>>>>> cef98df1b97aedfaeb8f9875bedc40c26282d0ea
+>>>>>>> This web app was created to display my portfolio
